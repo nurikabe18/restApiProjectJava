@@ -4,8 +4,10 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.example.restservice.bean.Greeting;
+import com.example.restservice.bean.Detail;
+
 @Mapper
-public interface GreetingMapper {
-    List<Greeting> selectAll();
+public interface DetailMapper {
+    List<Detail> selectDetailAll();
+    
 }
